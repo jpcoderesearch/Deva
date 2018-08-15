@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Movie amount:</strong>
+  <%= @expense.movie_amount %>
+</p>
+
+<p>
+  <strong>Poster expenses:</strong>
+  <%= @expense.poster_expenses %>
+</p>
+
+<p>
+  <strong>Diesel:</strong>
+  <%= @expense.diesel %>
+</p>
+
+<p>
+  <strong>Labor charges:</strong>
+  <%= @expense.labor_charges %>
+</p>
+
+<p>
+  <strong>Theater rent:</strong>
+  <%= @expense.theater_rent %>
+</p>
+
+<p>
+  <strong>Other expenses:</strong>
+  <%= @expense.other_expenses %>
+</p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @expense.date %>
+</p>
+
+<%= link_to 'Edit', edit_expense_path(@expense) %> |
+<%= link_to 'Back', expenses_path %>

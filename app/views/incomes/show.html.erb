@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Bike stand:</strong>
+  <%= @income.bike_stand %>
+</p>
+
+<p>
+  <strong>Bakery:</strong>
+  <%= @income.bakery %>
+</p>
+
+<p>
+  <strong>Ticket amount:</strong>
+  <%= @income.ticket_amount %>
+</p>
+
+<%= link_to 'Edit', edit_income_path(@income) %> |
+<%= link_to 'Back', incomes_path %>

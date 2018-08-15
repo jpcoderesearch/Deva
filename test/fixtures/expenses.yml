@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  movie_amount: 1
+  poster_expenses: 1
+  diesel: 1
+  labor_charges: 1
+  theater_rent: 1
+  other_expenses: 1
+  date: 2018-08-15
+
+two:
+  movie_amount: 1
+  poster_expenses: 1
+  diesel: 1
+  labor_charges: 1
+  theater_rent: 1
+  other_expenses: 1
+  date: 2018-08-15

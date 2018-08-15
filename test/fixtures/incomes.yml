@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  bike_stand: 1
+  bakery: 1
+  ticket_amount: 1
+
+two:
+  bike_stand: 1
+  bakery: 1
+  ticket_amount: 1
